@@ -1,0 +1,5 @@
+charset,delimiter,enclosure,field_count,skip_header_lines,skip_footer_lines,header_line_present,name,type,length,precision,mask,decimal_symbol,grouping_symbol,db_type
+ISO-8859-1,",",,4,0,0,Y,thetao_nearest,String,18,,,.,",",numeric
+ISO-8859-1,",",,4,0,0,Y,thetao_idw,String,18,,,.,",",numeric
+ISO-8859-1,",",,4,0,0,Y,lat,Number,18,15,#.#,.,",",numeric
+ISO-8859-1,",",,4,0,0,Y,lon,Number,18,15,#.#,.,",",numeric
