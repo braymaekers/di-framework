@@ -1,5 +1,5 @@
 #Kettle Properties file
-#Thu Nov 22 16:39:02 CET 2018
+#Thu Nov 22 17:19:38 CET 2018
 AskAboutReplacingDatabases=N
 AutoCollapseCoreObjectsTree=Y
 AutoSave=N
@@ -977,8 +977,8 @@ TabColorR=200
 TipNr=1
 UseDBCache=Y
 filetype10=Trans
-filetype1=Job
-filetype2=Trans
+filetype1=Trans
+filetype2=Job
 filetype3=Trans
 filetype4=Trans
 filetype5=Trans
@@ -997,8 +997,8 @@ lastdir7=
 lastdir8=
 lastdir9=
 lastfile10=
-lastfile1=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Project Setup BP\\projects\\framework\\tests\\jb_main_test_executor.kjb
-lastfile2=C\:/Users/braymaekers/Documents/GitHub/di-framework/framework/tests/tr_test_executor.ktr
+lastfile1=C\:/Users/braymaekers/Documents/GitHub/di-framework/framework/tests/tr_test_executor.ktr
+lastfile2=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Project Setup BP\\projects\\framework\\tests\\jb_main_test_executor.kjb
 lastfile3=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Project Setup BP\\projects\\framework\\tests\\test_executor.ktr
 lastfile4=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Projects\\Nordea\\PDI and HCI\\Nordea HCI\\tr_hci_api_call.ktr
 lastfile5=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Projects\\Nordea\\PDI and HCI\\Nordea HCI\\upd.ktr
