@@ -1,3 +1,4 @@
 **/log/*.log
 **/.kettle/db.cache-*
-shared.xml.backup
+**/.kettle/shared.xml.backup
+**/target/**
