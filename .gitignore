@@ -1,0 +1,3 @@
+**/log/*.log
+**/.kettle/db.cache-*
+shared.xml.backup
