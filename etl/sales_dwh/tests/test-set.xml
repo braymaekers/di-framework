@@ -1,12 +1,20 @@
 <test-set>
-    <test 	name="jb_main_sales_dwh_staging_test"
-			order="1" 
-			location="jb_main_sales_dwh_staging_test"			
-			class="basic.validations"		
-			package="test" />
-    <!--<test 	name="load_dimensions_test"	
-			order="4" 
-			location="integration/load_dimensions_test"	
-			class="build.database.customers"			
-			package="test" />-->
+    <test name="jb_environment_test"
+	  order="1" 
+	  location="jb_environment_test"			
+	  class="basic.validations"		
+	  package="test"
+    />
+    <test name="jb_main_sales_dwh_staging_test"
+	  order="2" 
+	  location="jb_main_sales_dwh_staging_test"			
+	  class="basic.validations"		
+	  package="test"
+    />
+    <!--<test name="load_dimensions_test"	
+              order="4" 
+	      location="integration/load_dimensions_test"	
+	      class="build.database.customers"			
+	      package="test" 
+    />-->
 </test-set>

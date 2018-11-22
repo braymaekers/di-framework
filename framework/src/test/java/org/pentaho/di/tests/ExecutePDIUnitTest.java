@@ -18,8 +18,8 @@ import static org.junit.Assert.*;
  */
 
 public class ExecutePDIUnitTest {
-    private static String UNIT_TEST_JOB = "tests/test_executor.ktr";
-    private static String EXEC_BIN_PATH = "bin/base";
+    private static String UNIT_TEST_JOB = "tests/jb_main_test_executor.kjb";
+    private static String EXEC_BIN_PATH = "../configuration/config-pdi-ci";
     private static String PDI_TRANS_SCRIPT = "pan.sh";
     private static String PDI_JOB_SCRIPT = "kitchen.sh";
 
