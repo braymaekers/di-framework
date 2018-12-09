@@ -1,5 +1,5 @@
 #Kettle Properties file
-#Sat Dec 08 18:48:03 CET 2018
+#Sun Dec 09 12:59:20 CET 2018
 AskAboutReplacingDatabases=N
 AutoCollapseCoreObjectsTree=Y
 AutoSave=N
@@ -1061,7 +1061,7 @@ tabfile6=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Project Setup BP\\pro
 tabfile7=C\:\\Users\\braymaekers\\Documents\\HCP Anywhere\\Project Setup BP\\projects\\etl\\sales_dwh\\content-pdi\\staging\\tr_stg_customer.ktr
 tabfile8=C\:/Users/braymaekers/Documents/HCP Anywhere/Project Setup BP/projects/framework/content-pdi/control/tr_upd_job_control_job.ktr
 tabfile9=C\:/Users/braymaekers/Desktop/project_setup_bp/framework/content-pdi/execution/jb_work_unit.kjb
-tabfiles=2
+tabfiles=0
 tabopened10=Y
 tabopened1=Y
 tabopened2=Y
