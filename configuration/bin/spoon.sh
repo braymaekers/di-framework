@@ -1,2 +1,3 @@
 sh init.sh
-sh $KETTLE_CLIENT_DIR/spoon.sh $OPT "$@"
+cd $KETTLE_CLIENT_DIR
+sh spoon.sh $OPT "$@"
