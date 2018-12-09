@@ -1,2 +1,3 @@
 SET PENTAHO_ENV=config-pdi-local
-CALL %~dp0\..\bin\pan.bat
+CD %~dp0\..\bin
+CALL pan.bat
