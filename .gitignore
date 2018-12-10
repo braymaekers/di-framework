@@ -1,4 +1,5 @@
 **/log/*.log
 **/.kettle/db.cache-*
 **/.kettle/shared.xml.backup
+**/.kettle/.spoonrc
 **/target/**
