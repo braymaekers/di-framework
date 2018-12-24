@@ -3,3 +3,4 @@
 **/.kettle/shared.xml.backup
 **/.kettle/.spoonrc
 **/target/**
+**/.DS_Store
