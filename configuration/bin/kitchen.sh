@@ -1,4 +1,5 @@
-. init.sh
+#. init.sh
+sh init.sh
 sh $KETTLE_CLIENT_DIR/kitchen.sh $OPT "$@"
 
 EXIT_CODE=$?
