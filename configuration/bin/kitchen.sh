@@ -1,7 +1,9 @@
 #. init.sh
 echo $PWD
 sh init.sh
-sh $KETTLE_CLIENT_DIR/kitchen.sh $OPT "$@"
+echo $KETTLE_CLIENT_DIR
+cd $KETTLE_CLIENT_DIR
+sh kitchen.sh $OPT "$@"
 
 EXIT_CODE=$?
 exit $EXIT_CODE
