@@ -2,4 +2,4 @@
 
 export PENTAHO_ENV=config-pdi-local
 cd "$PWD"/../bin
-sh kitchen.sh
+sh kitchen.sh "$@"
