@@ -1,5 +1,5 @@
 #Kettle Properties file
-#Tue Feb 26 16:17:51 CET 2019
+#Tue Feb 26 16:23:17 CET 2019
 AskAboutReplacingDatabases=N
 AutoCollapseCoreObjectsTree=Y
 AutoSave=N
@@ -453,8 +453,8 @@ lastdir7=
 lastdir8=
 lastdir9=/
 lastfile10=
-lastfile1=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_test.kjb
-lastfile2=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_main_test_executor.kjb
+lastfile1=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_main_test_executor.kjb
+lastfile2=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_test.kjb
 lastfile3=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/content-pdi/execution/jb_launcher.kjb
 lastfile4=
 lastfile5=
