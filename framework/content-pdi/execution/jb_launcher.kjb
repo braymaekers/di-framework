@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <job>
   <name>jb_launcher</name>
-  <description/>
-  <extended_description/>
-  <job_version/>
+  <description />
+  <extended_description />
+  <job_version />
   <job_status>0</job_status>
   <directory>/</directory>
   <created_user>-</created_user>
@@ -14,12 +14,12 @@
     <parameter>
       <name>P_JOB_NAME</name>
       <default_value>jb_main_sales_dwh_staging</default_value>
-      <description/>
+      <description />
     </parameter>
     <parameter>
       <name>P_PROJECT_NAME</name>
       <default_value>sales_dwh</default_value>
-      <description/>
+      <description />
     </parameter>
   </parameters>
   <connection>
@@ -31,9 +31,9 @@
     <port>${PDI_LOGGING.PORT}</port>
     <username>${PDI_LOGGING.USER}</username>
     <password>${PDI_LOGGING.PASS}</password>
-    <servername/>
-    <data_tablespace/>
-    <index_tablespace/>
+    <servername />
+    <data_tablespace />
+    <index_tablespace />
     <attributes>
       <attribute>
         <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
@@ -78,12 +78,12 @@
       <name>carte-slave</name>
       <hostname>192.168.56.101</hostname>
       <port>8083</port>
-      <webAppName/>
+      <webAppName />
       <username>admin</username>
       <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -94,9 +94,9 @@
       <webAppName>pentaho-di</webAppName>
       <username>joe</username>
       <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -107,9 +107,9 @@
       <webAppName>pentaho-di</webAppName>
       <username>admin</username>
       <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -120,9 +120,9 @@
       <webAppName>pentaho</webAppName>
       <username>admin</username>
       <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -133,9 +133,9 @@
       <webAppName>pentaho</webAppName>
       <username>admin</username>
       <password>Encrypted 2be98afc86aa7f2e4bb18bd63c99dbdde</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -143,12 +143,12 @@
       <name>Master</name>
       <hostname>localhost</hostname>
       <port>8081</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -156,12 +156,12 @@
       <name>slave-8081</name>
       <hostname>localhost</hostname>
       <port>8081</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -169,12 +169,12 @@
       <name>slave-8082</name>
       <hostname>localhost</hostname>
       <port>8082</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -182,12 +182,12 @@
       <name>slave-8083</name>
       <hostname>localhost</hostname>
       <port>8083</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -195,12 +195,12 @@
       <name>Slave1</name>
       <hostname>localhost</hostname>
       <port>8082</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -208,12 +208,12 @@
       <name>Slave2</name>
       <hostname>localhost</hostname>
       <port>8083</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -221,12 +221,12 @@
       <name>Slave3</name>
       <hostname>localhost</hostname>
       <port>8084</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -234,12 +234,12 @@
       <name>Slave4</name>
       <hostname>localhost</hostname>
       <port>8085</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -247,12 +247,12 @@
       <name>Slave5</name>
       <hostname>localhost</hostname>
       <port>8086</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -260,12 +260,12 @@
       <name>YarnCluster - sandbox.hortonworks.com:30301</name>
       <hostname>sandbox.hortonworks.com</hostname>
       <port>30301</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>Y</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -273,12 +273,12 @@
       <name>YarnCluster - sandbox.hortonworks.com:30302</name>
       <hostname>sandbox.hortonworks.com</hostname>
       <port>30302</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
@@ -286,23 +286,23 @@
       <name>YarnCluster - sandbox.hortonworks.com:30303</name>
       <hostname>sandbox.hortonworks.com</hostname>
       <port>30303</port>
-      <webAppName/>
+      <webAppName />
       <username>cluster</username>
       <password>Encrypted 2be98afc86aa7f2e4cb1aa265cd86aac8</password>
-      <proxy_hostname/>
-      <proxy_port/>
-      <non_proxy_hosts/>
+      <proxy_hostname />
+      <proxy_port />
+      <non_proxy_hosts />
       <master>N</master>
       <sslMode>N</sslMode>
     </slaveserver>
   </slaveservers>
   <job-log-table>
     <connection>pdi_logging</connection>
-    <schema/>
-    <table/>
-    <size_limit_lines/>
-    <interval/>
-    <timeout_days/>
+    <schema />
+    <table />
+    <size_limit_lines />
+    <interval />
+    <timeout_days />
     <field>
       <id>ID_JOB</id>
       <enabled>Y</enabled>
@@ -410,10 +410,10 @@
     </field>
   </job-log-table>
   <jobentry-log-table>
-    <connection/>
-    <schema/>
-    <table/>
-    <timeout_days/>
+    <connection />
+    <schema />
+    <table />
+    <timeout_days />
     <field>
       <id>ID_BATCH</id>
       <enabled>Y</enabled>
@@ -501,10 +501,10 @@
     </field>
   </jobentry-log-table>
   <channel-log-table>
-    <connection/>
-    <schema/>
-    <table/>
-    <timeout_days/>
+    <connection />
+    <schema />
+    <table />
+    <timeout_days />
     <field>
       <id>ID_BATCH</id>
       <enabled>Y</enabled>
@@ -567,13 +567,13 @@
     </field>
   </channel-log-table>
   <checkpoint-log-table>
-    <connection/>
-    <schema/>
-    <table/>
-    <timeout_days/>
-    <max_nr_retries/>
-    <run_retry_period/>
-    <namespace_parameter/>
+    <connection />
+    <schema />
+    <table />
+    <timeout_days />
+    <max_nr_retries />
+    <run_retry_period />
+    <namespace_parameter />
     <save_parameters>Y</save_parameters>
     <save_result_rows>Y</save_result_rows>
     <save_result_files>Y</save_result_files>
@@ -634,13 +634,13 @@
     </field>
   </checkpoint-log-table>
   <pass_batchid>N</pass_batchid>
-  <shared_objects_file/>
+  <shared_objects_file />
   <entries>
     <entry>
       <name>START</name>
-      <description/>
+      <description />
       <type>SPECIAL</type>
-      <attributes/>
+      <attributes />
       <start>Y</start>
       <dummy>N</dummy>
       <repeat>N</repeat>
@@ -656,13 +656,13 @@
       <nr>0</nr>
       <xloc>64</xloc>
       <yloc>160</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>wtl-execution_info</name>
-      <description/>
+      <description />
       <type>WRITE_TO_LOG</type>
-      <attributes/>
+      <attributes />
       <logmessage> </logmessage>
       <loglevel>Basic</loglevel>
       <logsubject>*** INFO: STARTING JOB: P_PROJECT_NAME: ${P_PROJECT_NAME}, P_JOB_NAME: ${P_JOB_NAME} ***</logsubject>
@@ -671,18 +671,18 @@
       <nr>0</nr>
       <xloc>256</xloc>
       <yloc>160</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>jb_execute_job</name>
-      <description/>
+      <description />
       <type>JOB</type>
-      <attributes/>
+      <attributes />
       <specification_method>filename</specification_method>
-      <job_object_id/>
+      <job_object_id />
       <filename>${CONTENT_HOME}/${P_JOB_NAME}.kjb</filename>
-      <jobname/>
-      <directory/>
+      <jobname />
+      <directory />
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
@@ -692,7 +692,7 @@
       <add_date>Y</add_date>
       <add_time>Y</add_time>
       <loglevel>Basic</loglevel>
-      <slave_server_name/>
+      <slave_server_name />
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
       <expand_remote_job>N</expand_remote_job>
@@ -708,53 +708,53 @@
       <nr>0</nr>
       <xloc>640</xloc>
       <yloc>160</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>ab-job_execution_error</name>
-      <description/>
+      <description />
       <type>ABORT</type>
-      <attributes/>
+      <attributes />
       <message>*** ERROR: ERRORS OCCURRED DURING EXECUTION - P_PROJECT_NAME: ${P_PROJECT_NAME}  - P_JOB_NAME: ${P_JOB_NAME} *** </message>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>640</xloc>
       <yloc>32</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>Success</name>
-      <description/>
+      <description />
       <type>SUCCESS</type>
-      <attributes/>
+      <attributes />
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>832</xloc>
       <yloc>160</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>jb_load_job_env</name>
-      <description/>
+      <description />
       <type>JOB</type>
-      <attributes/>
+      <attributes />
       <specification_method>filename</specification_method>
-      <job_object_id/>
+      <job_object_id />
       <filename>${FRAMEWORK_HOME}/utilities/jb_load_job_env.kjb</filename>
-      <jobname/>
-      <directory/>
+      <jobname />
+      <directory />
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
       <exec_per_row>N</exec_per_row>
       <set_logfile>N</set_logfile>
-      <logfile/>
-      <logext/>
+      <logfile />
+      <logext />
       <add_date>N</add_date>
       <add_time>N</add_time>
       <loglevel>Nothing</loglevel>
-      <slave_server_name/>
+      <slave_server_name />
       <wait_until_finished>Y</wait_until_finished>
       <follow_abort_remote>N</follow_abort_remote>
       <expand_remote_job>N</expand_remote_job>
@@ -765,12 +765,12 @@
         <pass_all_parameters>Y</pass_all_parameters>
         <parameter>
           <name>P_PROJECT_NAME</name>
-          <stream_name/>
+          <stream_name />
           <value>${P_PROJECT_NAME}</value>
         </parameter>
         <parameter>
           <name>P_JOB_NAME</name>
-          <stream_name/>
+          <stream_name />
           <value>${P_JOB_NAME}</value>
         </parameter>
       </parameters>
@@ -780,20 +780,20 @@
       <nr>0</nr>
       <xloc>448</xloc>
       <yloc>160</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
     <entry>
       <name>ab-job_load_env_error</name>
-      <description/>
+      <description />
       <type>ABORT</type>
-      <attributes/>
+      <attributes />
       <message>*** ERROR: UNABLE TO LOAD JOB ENVIRONMENT - P_PROJECT_NAME: ${P_PROJECT_NAME} - P_JOB_NAME: ${P_JOB_NAME} ***</message>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>448</xloc>
       <yloc>32</yloc>
-      <attributes_kjc/>
+      <attributes_kjc />
     </entry>
   </entries>
   <hops>
