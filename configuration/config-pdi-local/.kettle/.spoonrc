@@ -1,5 +1,5 @@
 #Kettle Properties file
-#Wed Feb 27 08:53:49 CET 2019
+#Wed Feb 27 08:54:55 CET 2019
 AskAboutReplacingDatabases=N
 AutoCollapseCoreObjectsTree=Y
 AutoSave=N
@@ -52,6 +52,7 @@ PluginHistory_11=TableOutput;1
 PluginHistory_12=GetFileNames;1
 PluginHistory_13=XMLInput;1
 PluginHistory_14=DBJoin;1
+PluginHistory_15=CsvInput;1
 PluginHistory_1=ScriptValueMod;3
 PluginHistory_2=TableInput;3
 PluginHistory_3=TextFileOutput;2
@@ -527,7 +528,7 @@ tabdir3=/
 tabfile1=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_test.kjb
 tabfile2=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/jb_main_test_executor.kjb
 tabfile3=/Users/bepraymaekers/Documents/GitHub/di-framework/framework/tests/tr_test_executor.ktr
-tabfiles=3
+tabfiles=0
 tabopened1=Y
 tabopened2=Y
 tabopened3=Y
